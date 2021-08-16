@@ -1,0 +1,30 @@
+.chatMsgForm {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+}
+
+.chatMsgInput {
+  border: none;
+  border-radius: 0;
+  padding: 2%;
+  width: 80%;
+  font-size: 1.2em;
+  border-radius: 0 0 0 10px;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #574ae2;
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  font-weight: bold;
+  border-radius: 0 0 10px 0;
+}

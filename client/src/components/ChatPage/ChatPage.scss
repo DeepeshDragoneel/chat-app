@@ -1,0 +1,36 @@
+.chatPageMainDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1d;
+    flex-wrap: wrap-reverse;
+    .chatPageInnerDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #ffffff;
+        border-radius: 8px;
+        height: 60%;
+        min-width: 30rem;
+        width: 45%;
+        border-radius: 10px;
+    }
+    .chatPageOnlineUsersDiv{
+        padding: 10px;
+        color: white;
+        h1{
+            font-weight: bold;
+        }
+        h2{
+            font-size: 1.4rem;
+        }
+        .userOnlineList{
+            display: flex;
+            align-items: center;
+            p{
+                margin: 10px;
+            }
+        }
+    }
+}

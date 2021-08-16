@@ -1,0 +1,40 @@
+.sentByUserMsgDiv{
+    display:flex;
+    margin-left: auto !important;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ABABF8;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    padding-right: 1rem;
+    p{
+        margin-bottom: 0px !important;
+    }
+    .sentBy{
+        color: #0c0c0c;
+        font-size: 0.8rem;
+    }
+}
+.notsentByUserMsgDiv{
+    display:flex;
+    margin-left: auto;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #dcdcdf;
+    max-width: 80%;
+    word-wrap: break-word;
+    margin: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    padding-right: 1rem;
+    p{
+        margin-bottom: 0px !important;
+    }
+    .sentBy{
+        color: #0c0c0c;
+        font-size: 0.8rem;
+    }
+}

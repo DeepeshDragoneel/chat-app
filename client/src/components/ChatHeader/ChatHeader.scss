@@ -1,0 +1,28 @@
+.ChatHeaderMainDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #574ae2;
+    align-items: center;
+    padding: 0.5rem;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #574ae2;
+    .ChatHeaderLeft{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        img{
+            margin: 10px;
+        }
+        h1{
+            margin: 10px;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: rgb(255, 255, 255) !important;
+        }
+    }
+    .ChatHeaderRight{
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+}
