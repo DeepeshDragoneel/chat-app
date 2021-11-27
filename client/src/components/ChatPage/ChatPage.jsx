@@ -80,7 +80,7 @@ const ChatPage = ({ location }) => {
                 </div>
                 <div className="chatPageOnlineUsersDiv">
                     <h1>Simple Chat App 💬</h1>
-                    <h2><a href="#">Made BY DEEPESH DRAGONEEL</a></h2>
+                    <h2><a href="#">Made BY B-12</a></h2>
                     <hr/>
                     <h1>Users Online:</h1>
                     {users.map((user) => (
