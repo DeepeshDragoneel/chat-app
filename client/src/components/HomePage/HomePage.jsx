@@ -11,7 +11,7 @@ const HomePage = () => {
         <div>
             <div className="homePageMainDiv">
                 <div className="homePageInner">
-                    <h1 className="mb-4">Welcome to Chats!</h1>
+                    <h1 className="mb-4">Welcome to Group Chat Application!</h1>
                     <div className="form-floating mb-3">
                         <input
                             type="text"
