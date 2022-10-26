@@ -79,8 +79,8 @@ const ChatPage = ({ location }) => {
                     ></input> */}
                 </div>
                 <div className="chatPageOnlineUsersDiv">
-                    <h1>Simple Chat App 💬</h1>
-                    <h2><a href="#">Made BY B-12</a></h2>
+                    <h1>Group chat application 💬</h1>
+                    <h2><a href="#">Made BY B-72</a></h2>
                     <hr/>
                     <h1>Users Online:</h1>
                     {users.map((user) => (
